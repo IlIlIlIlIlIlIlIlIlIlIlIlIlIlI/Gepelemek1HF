@@ -1,0 +1,86 @@
+\documentclass[10pt, a4paper]{article} 
+\usepackage[
+a4paper,
+left=2cm,      
+right=2cm,     
+top=3cm,     
+bottom=3cm,    
+headheight=4em 
+]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsthm,amssymb,xfrac}
+\usepackage{fancyhdr}
+\usepackage[hungarian]{babel}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{comment}
+\usepackage{siunitx}
+\usepackage{hyperref}
+\usepackage{siunitx}
+\usepackage{natbib}
+\usepackage{empheq}
+\usepackage{wrapfig}
+\usepackage{chngcntr}
+\usepackage{physics}
+\usepackage{mathtools}
+\counterwithin{figure}{section}
+\usepackage{titlesec}
+\usepackage{dsfont}
+\usepackage{pdfpages}
+\usepackage{t1enc}
+\usepackage{tabto}
+\graphicspath{ {./images/} }
+\setlength{\marginparwidth}{0pt}
+\setlength{\marginparsep}{0pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{\thepage. oldal}
+\lhead{
+	\textbf{Gépelemek 1. Házi feladat}
+	\\Kindlik Dániel
+	\\AHU27Z
+}
+\newcounter{feladatcounter}
+\newcommand{\feladat}{
+	\stepcounter{feladatcounter}
+	\begin{trivlist}
+		\item[\hskip \labelsep {\bfseries
+			{\arabic{feladatcounter}. Feladat:}}]\end{trivlist}}
+\setlength{\parskip}{0.22em} 
+
+\title{\includegraphics[width=175pt]{ BMElogo.png }\\Gépelemek 1. Házi feladat}
+\author{Kindlik Dániel - AHU27Z}
+\date{2025.10.03.}
+\renewcommand*\contentsname{Tartalomjegyzék}
+\begin{document}
+	\maketitle
+	\tableofcontents
+	\newpage
+	\setcounter{page}{2}
+	\section{Bevezetés}
+	A feladat a megadott adatokkal egy csővéget vakkarimával lezáró csavarkötés tervezése és az elemek szilárdságilag
+	ellenőrzése.
+	\subsection{Adatok}
+	$p_{\text{ü}} = 35 mm\;\;D_N = 32 mm$
+	\feladat
+	\renewcommand{\arraystretch}{1.4}
+	\begin{table}[h]
+		\begin{tabular}{l|c|c}
+			\textbf{Név}                              & \textbf{Jelölés} & \textbf{Érték} \\ \hline
+			Karima külső átmérője                     & $D$                & 1 mm           \\
+			Kiugrás mérete                            & $f$                & 2 mm           \\
+			Tömítő felület külső átmérője             & $d_4$             & 3 mm           \\
+			Csavar lyukkör átmérője                   & $d_2$             & 4 mm           \\
+			Falvastagság                              & $s$                & 5 mm           \\
+			Csavarok száma                            & $N$                & 6 mm           \\
+			Csavarok közép átmérője                   & $K$                & 7 mm           \\
+			Csavarok alapja és tömítési sík távolsága & $b$                & 8 mm           \\
+			Kúp alsó átmérője                         & $d_3$             & 9 mm           \\
+			Csavarok mérete                           & $M$                & 10 mm          \\
+			Cső csatlakozás külső mérete              & $d_1$             & 11 mm          \\
+			Karima magassága                          & $h$                & 12 mm         
+		\end{tabular}
+	\end{table}
+	\renewcommand{\arraystretch}{1}
+\end{document}
