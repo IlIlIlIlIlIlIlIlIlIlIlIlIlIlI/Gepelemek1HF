@@ -1,7 +1,7 @@
-\select@language {hungarian} \contentsline {section}{\numberline {1}Konstrukció előterve}{3}{section.1}%
-\select@language {hungarian} \contentsline {section}{\numberline {2}Karima}{4}{section.2}%
-\select@language {hungarian} \contentsline {subsection}{\numberline {2.1}Karima szabvány választása}{4}{subsection.2.1}%
-\select@language {hungarian} \contentsline {section}{\numberline {3}Tömítés}{5}{section.3}%
-\select@language {hungarian} \contentsline {subsection}{\numberline {3.1}Tömítés szabvány választása}{5}{subsection.3.1}%
-\select@language {hungarian} \contentsline {section}{\numberline {4}Vakkarima}{6}{section.4}%
-\select@language {hungarian} \contentsline {subsection}{\numberline {4.1}Karima szabvány választása}{6}{subsection.4.1}%
+\select@language {hungarian} \contentsline {section}{\numberline {1}Konstrukció előterve}{3}{}%
+\select@language {hungarian} \contentsline {section}{\numberline {2}Karima}{4}{}%
+\select@language {hungarian} \contentsline {subsection}{\numberline {2.1}Karima szabvány választása}{4}{}%
+\select@language {hungarian} \contentsline {section}{\numberline {3}Tömítés}{5}{}%
+\select@language {hungarian} \contentsline {subsection}{\numberline {3.1}Tömítés szabvány választása}{5}{}%
+\select@language {hungarian} \contentsline {section}{\numberline {4}Vakkarima}{6}{}%
+\select@language {hungarian} \contentsline {subsection}{\numberline {4.1}Karima szabvány választása}{6}{}%
