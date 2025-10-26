@@ -1,7 +1,10 @@
-\select@language {hungarian} \contentsline {section}{\numberline {1}Konstrukció előterve}{3}{}%
-\select@language {hungarian} \contentsline {section}{\numberline {2}Karima}{4}{}%
-\select@language {hungarian} \contentsline {subsection}{\numberline {2.1}Karima szabvány választása}{4}{}%
-\select@language {hungarian} \contentsline {section}{\numberline {3}Tömítés}{5}{}%
-\select@language {hungarian} \contentsline {subsection}{\numberline {3.1}Tömítés szabvány választása}{5}{}%
-\select@language {hungarian} \contentsline {section}{\numberline {4}Vakkarima}{6}{}%
-\select@language {hungarian} \contentsline {subsection}{\numberline {4.1}Karima szabvány választása}{6}{}%
+\select@language {hungarian} \contentsline {section}{\numberline {1}Előtervek}{3}{}%
+\select@language {hungarian} \contentsline {subsection}{\numberline {1.1}Karima szabvány választása}{3}{}%
+\select@language {hungarian} \contentsline {subsection}{\numberline {1.2}Vakkarima szabvány választása}{4}{}%
+\select@language {hungarian} \contentsline {subsection}{\numberline {1.3}Konstrukció előterve}{4}{}%
+\select@language {hungarian} \contentsline {section}{\numberline {2}Vakkarima minimális vastagságának számítása, megfelelő lemezvastagság választása}{4}{}%
+\select@language {hungarian} \contentsline {section}{\numberline {3}Megfelelő lapos tömítés választása, minimális tömítési erő számítása}{5}{}%
+\select@language {hungarian} \contentsline {section}{\numberline {4}Csavarra jutó terhelés számítása}{5}{}%
+\select@language {hungarian} \contentsline {section}{\numberline {5}Csavar előfeszítésének és szükséges meghúzási nyomaték számítása}{5}{}%
+\select@language {hungarian} \contentsline {section}{\numberline {6}Csavar anyagának kiválasztása, benne ébredő egyenfeszültség kiválasztása}{5}{}%
+\select@language {hungarian} \contentsline {section}{\numberline {7}Konstrukció összeállítási rajza}{5}{}%

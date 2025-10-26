@@ -73,10 +73,7 @@ headheight=4em
 	\section*{Bevezetés}
 	A feladat a megadott adatokkal egy csővéget vakkarimával lezáró csavarkötés tervezése és az elemek szilárdságilag
 	ellenőrzése.
-	\section{Konstrukció előterve}
-	x
-	\newpage
-	\section{Karima}
+	\section{Előtervek}
 	\subsection{Karima szabvány választása}
 	A megadott adatok alapján ($p_{\ddot{u}} = 35\baar\;\;D_N = 32\mm$) DIN EN 1092-1 PN40 szabványt lett kiválasztva.
 	\begin{figure}[h]
@@ -107,30 +104,7 @@ headheight=4em
 		\end{tabular}
 	\end{table}
 	\renewcommand{\arraystretch}{1}
-	\newpage
-	\section{Tömítés}
-	\subsection{Tömítés szabvány választása}
-	A megadott adatok alapján ($p_{\ddot{u}} = 35\baar\;\;D_N = 32\mm$) DIN EN 1092-1 DN32 SBR tömítés lett választva, ami 40 bar nyomásig használható, így PN40-es karimákhoz jó.
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=0.5\textwidth]{ tomites_eloterv.png }
-		\caption{Tömítés előterve}
-		\label{fig:tomites}
-	\end{figure}
-	\renewcommand{\arraystretch}{1.4}
-	\begin{table}[h]
-		\centering
-		\begin{tabular}{l|c|c}
-			\textbf{Név}                              & \textbf{Jelölés} & \textbf{Érték} \\ \hline
-			Tömítés külső átmérője                     & $D$                & 78 mm           \\
-			Tömítés belső átmérője                     & $D_i$                & 32 mm			\\
-			Tömítés vastagsága                         & $b$                & 3 mm             
-		\end{tabular}
-	\end{table}
-	\renewcommand{\arraystretch}{1}
-	\newpage
-	\section{Vakkarima}
-	\subsection{Karima szabvány választása}
+	\subsection{Vakkarima szabvány választása}
 	A megadott adatok alapján ($p_{\ddot{u}} = 35\baar\;\;D_N = 32\mm$) DIN EN 1092-1 PN40 szabványt lett kiválasztva.
 	\begin{figure}[h]
 		\centering
@@ -154,4 +128,46 @@ headheight=4em
 		\end{tabular}
 	\end{table}
 	\renewcommand{\arraystretch}{1}
+	\subsection{Konstrukció előterve}
+	x
+	\section{Vakkarima minimális vastagságának számítása, megfelelő lemezvastagság választása}
+	A vakkarima minimális vastagságának kiszámításához használhatjuk az alábbi egyenletet:\\
+	\begin{equation}
+		b_{\text{min}} = \sqrt{\dfrac{3 \cdot p_\text{ü}}{\sigma_{\text{hajl}}} \cdot \left(1 - \dfrac{2 \cdot d_t}{3 \cdot k}\right)} \cdot \dfrac{d_t}{2}
+	\end{equation}
+	\renewcommand{\arraystretch}{1.4}
+		\begin{table}[h]
+			\centering
+			\begin{tabular}{l|c|c}
+				\textbf{Név}                              & \textbf{Jelölés} & \textbf{Érték} \\ \hline
+				Tömítés külső átmérője                     & $p_\text{ü}$                & 78 mm           \\
+				Tömítés belső átmérője                     & $\sigma_{\text{hajl}}$                & 32 mm			\\
+				Tömítés vastagsága                         & $k$                & 3 mm     \\
+				Tömítés vastagsága                         & $d_t$                & 3 mm           
+			\end{tabular}
+		\end{table}
+		\renewcommand{\arraystretch}{1}	
+	\section{Megfelelő lapos tömítés választása, minimális tömítési erő számítása}
+	A megadott adatok alapján ($p_{\ddot{u}} = 35\baar\;\;D_N = 32\mm$) DIN EN 1092-1 DN32 SBR tömítés lett választva, ami 40 bar nyomásig használható, így PN40-es karimákhoz jó.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.5\textwidth]{ tomites_eloterv.png }
+		\caption{Tömítés előterve}
+		\label{fig:tomites}
+	\end{figure}
+	\renewcommand{\arraystretch}{1.4}
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{l|c|c}
+			\textbf{Név}                              & \textbf{Jelölés} & \textbf{Érték} \\ \hline
+			Tömítés külső átmérője                     & $D$                & 78 mm           \\
+			Tömítés belső átmérője                     & $D_i$                & 32 mm			\\
+			Tömítés vastagsága                         & $b$                & 3 mm             
+		\end{tabular}
+	\end{table}
+	\renewcommand{\arraystretch}{1}	
+	\section{Csavarra jutó terhelés számítása}
+	\section{Csavar előfeszítésének és szükséges meghúzási nyomaték számítása}
+	\section{Csavar anyagának kiválasztása, benne ébredő egyenfeszültség kiválasztása}
+	\section{Konstrukció összeállítási rajza}
 \end{document}
