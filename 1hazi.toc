@@ -1,11 +1,10 @@
 \select@language {hungarian} \contentsline {section}{\numberline {1}Előtervek}{3}{section.1}%
 \select@language {hungarian} \contentsline {subsection}{\numberline {1.1}Karima szabvány választása}{3}{subsection.1.1}%
 \select@language {hungarian} \contentsline {subsection}{\numberline {1.2}Vakkarima szabvány választása}{4}{subsection.1.2}%
-\select@language {hungarian} \contentsline {subsection}{\numberline {1.3}Tömítés előterve}{4}{subsection.1.3}%
-\select@language {hungarian} \contentsline {subsection}{\numberline {1.4}Konstrukció előterve}{5}{subsection.1.4}%
-\select@language {hungarian} \contentsline {section}{\numberline {2}Vakkarima minimális vastagságának számítása, megfelelő lemezvastagság választása}{6}{section.2}%
-\select@language {hungarian} \contentsline {section}{\numberline {3}Megfelelő lapos tömítés választása, minimális tömítési erő számítása}{7}{section.3}%
-\select@language {hungarian} \contentsline {section}{\numberline {4}Csavarra jutó terhelés számítása}{8}{section.4}%
-\select@language {hungarian} \contentsline {section}{\numberline {5}Csavar előfeszítésének és szükséges meghúzási nyomaték számítása}{9}{section.5}%
-\select@language {hungarian} \contentsline {section}{\numberline {6}Csavar anyagának kiválasztása, benne ébredő egyenfeszültség kiválasztása}{11}{section.6}%
-\select@language {hungarian} \contentsline {section}{\numberline {7}Konstrukció összeállítási rajza}{12}{section.7}%
+\select@language {hungarian} \contentsline {subsection}{\numberline {1.3}Konstrukció előterve}{4}{subsection.1.3}%
+\select@language {hungarian} \contentsline {section}{\numberline {2}Vakkarima minimális vastagságának számítása, megfelelő lemezvastagság választása}{5}{section.2}%
+\select@language {hungarian} \contentsline {section}{\numberline {3}Megfelelő lapos tömítés választása, minimális tömítési erő számítása}{6}{section.3}%
+\select@language {hungarian} \contentsline {section}{\numberline {4}Csavarra jutó terhelés számítása}{7}{section.4}%
+\select@language {hungarian} \contentsline {section}{\numberline {5}Csavar előfeszítésének és szükséges meghúzási nyomaték számítása}{8}{section.5}%
+\select@language {hungarian} \contentsline {section}{\numberline {6}Csavar anyagának kiválasztása, benne ébredő egyenfeszültség kiválasztása}{10}{section.6}%
+\select@language {hungarian} \contentsline {section}{\numberline {7}Konstrukció összeállítási rajza}{11}{section.7}%

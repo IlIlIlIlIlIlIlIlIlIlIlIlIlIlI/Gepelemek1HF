@@ -69,7 +69,7 @@ headheight=4em
 		{\Large Gépelemek mechatronikai mérnököknek} \\
 		\vspace{0.5cm}
 		{\Large 1. Házi feladat} \\
-		\includegraphics[width=300pt, angle=-90]{ karima_rajz.png } \\
+		\includegraphics[width=160pt]{ osszeallitas.png } \\
 		\vspace{1cm}
 		{\Large \scshape Kindlik Dániel} \\
 		\vspace{0.5cm}
@@ -90,7 +90,7 @@ headheight=4em
 	A megadott adatok alapján ($p_{\ddot{u}} = 35\baar\;\;D_N = 32\mm$) ISO EN 1092-1 PN40\footnote{\url{https://globalsupplyline.com.au/wp-content/uploads/2014/10/Flange-Dim-EN1092-1-BS4504.pdf}} szabványt lett kiválasztva.
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=0.75\textwidth]{ karima_eloterv.png }
+		\includegraphics[width=0.6\textwidth]{ karima_eloterv.png }
 		\caption{Karima előterve}
 		\label{fig:karima}
 	\end{figure}
@@ -120,7 +120,7 @@ headheight=4em
 	A megadott adatok alapján ($p_{\ddot{u}} = 35\baar\;\;D_N = 32\mm$) DIN EN 1092-1\footnote{\url{https://www.heco.de/en/stainless-steel/flanges/blind-flanges/din-en/more-sealing-surfaces/with-raised-face/pn-40.html}} PN40 szabványt lett kiválasztva.
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=0.5\textwidth]{ vakkarima_eloterv.png }
+		\includegraphics[width=0.4\textwidth]{ vakkarima_eloterv.png }
 		\caption{Vakkarima előterve}
 		\label{fig:vakkarima}
 	\end{figure}
@@ -139,27 +139,13 @@ headheight=4em
 			Csavarok közép átmérője                   & $K$                & 100 mm             
 		\end{tabular}
 	\end{table}
-	\renewcommand{\arraystretch}{1}
-	\subsection{Tömítés előterve}
+	\subsection{Konstrukció előterve}
 	\begin{figure}[h]
 			\centering
-			\includegraphics[width=0.5\textwidth]{ tomites_eloterv.png }
-			\caption{Tömítés előterve}
-			\label{fig:tomites}
+			\includegraphics[width=0.5\textwidth]{ konstrukcio_eloterv.png }
+			\caption{Konstrukció előterve}
+			\label{fig:konstrukcio}
 		\end{figure}
-	\renewcommand{\arraystretch}{1.4}
-	\begin{table}[!h]
-		\centering
-		\begin{tabular}{l|c|c}
-				\textbf{Név}                              & \textbf{Jelölés} & \textbf{Érték} \\ \hline
-				Tömítés külső átmérője                     & $D$             & 78 mm           \\
-				Tömítés belső átmérője                     & $D_i$           & 32 mm			\\
-				Tömítés vastagsága                         & $b$             & 3 mm             
-		\end{tabular}
-	\end{table}
-	\renewcommand{\arraystretch}{1}	
-	\subsection{Konstrukció előterve}
-	xx
 	\newpage
 	\section{Vakkarima minimális vastagságának számítása, megfelelő lemezvastagság választása}
 	A vakkarima minimális vastagságának kiszámításához használhatjuk az alábbi egyenletet:
@@ -280,7 +266,7 @@ headheight=4em
 	\end{equation}
 	\newpage
 	\section{Csavar előfeszítésének és szükséges meghúzási nyomaték számítása}
-	Először a feladat megoldásához ki kell választatnunk pár hiányzó alkatrészt. A csavar a karima miatt M16-os MSZ EN ISO 4018\footnote{\url{https://www.k-mechanic.hu/kmchnc17/wp-content/uploads/2021/04/Csavarok.pdf}} szabványú tövigmenetes hatlapfejű csavar. Ehhez egy M16-os MSZ EN ISO 4032\footnote{\url{http://glink.hu/hallgatoi_segedletek/files/2467bab9d79c9c1c6f7eb43a99cf961c.pdf} 90. oldal} szabványú csavaranyát választottam. Mindkét alkatrész menete MSZ 205 ISO\footnote{\url{http://glink.hu/hallgatoi_segedletek/files/2467bab9d79c9c1c6f7eb43a99cf961c.pdf} 99. oldal} menet.\\\\
+	Először a feladat megoldásához ki kell választatnunk pár hiányzó alkatrészt. A csavar a karima miatt M16-os MSZ EN ISO 4016\footnote{\url{https://www.k-mechanic.hu/kmchnc17/wp-content/uploads/2021/04/Csavarok.pdf}} szabványú hatlapfejű csavar. Ehhez egy M16-os MSZ EN ISO 4032\footnote{\url{http://glink.hu/hallgatoi_segedletek/files/2467bab9d79c9c1c6f7eb43a99cf961c.pdf} 90. oldal} szabványú csavaranyát választottam. Mindkét alkatrész menete MSZ 205 ISO\footnote{\url{http://glink.hu/hallgatoi_segedletek/files/2467bab9d79c9c1c6f7eb43a99cf961c.pdf} 99. oldal} menet.\\\\
 	A meghúzási nyomaték meghatározásához az alábbi egyenletet tudjuk használni:
 	\begin{equation}
 		M_{megh} = M_{csavar} + M_{anya} \tag{5}
@@ -353,10 +339,10 @@ headheight=4em
 	\newpage
 	Így meg tudjuk adni $M_{csavar}$ szélsőértékeit:
 	\begin{equation}
-			M_{csavar_{min}} = F_v \cdot \dfrac{d_2}{2} \cdot \tan(\alpha + \rho'_{min}) = 6098 \cdot \dfrac{14.701}{2} \cdot \tan(2.48 + 6.587) = 7153 \mpa\tag{5.1}
+			M_{csavar_{min}} = F_v \cdot \dfrac{d_2}{2} \cdot \tan(\alpha + \rho'_{min}) = 6098 \cdot \dfrac{14.701}{2} \cdot \tan(2.48 + 6.587) = 7153 \nmm\tag{5.1}
 	\end{equation}
 	\begin{equation}
-			M_{csavar_{max}} = F_v \cdot \dfrac{d_2}{2} \cdot \tan(\alpha + \rho'_{max}) = 6098 \cdot \dfrac{14.701}{2} \cdot \tan(2.48 + 9.183) = 9252 \mpa\tag{5.1} \label{Mcsavar}
+			M_{csavar_{max}} = F_v \cdot \dfrac{d_2}{2} \cdot \tan(\alpha + \rho'_{max}) = 6098 \cdot \dfrac{14.701}{2} \cdot \tan(2.48 + 9.183) = 9252 \nmm\tag{5.1} \label{Mcsavar}
 	\end{equation}
 	$M_{anya}$ meghatározásához az alábbi egyenletet tudjuk felhasználni:
 	\begin{equation}
@@ -384,24 +370,24 @@ headheight=4em
 									\centering
 									\begin{tabular}{l|c|c}
 										\textbf{Név}                              & \textbf{Jelölés} & \textbf{M.egys.} \\ \hline
-										A csavaranya névleges középátmérője                     & $d$                & $\n$          \\
+										A csavaranya névleges középátmérője                     & $d$                & $\mm$          \\
 										A csavaranya laptávolsága          & $s$                & $\mm$			 		 	       
 									\end{tabular}
 								\end{table}
 			\renewcommand{\arraystretch}{1}\\
 	Így meg tudjuk adni $M_{anya}$ szélsőértékeit acél-acél súrlódási tényező ismeretében\footnote{\href{https://hu.wikipedia.org/wiki/S\%C3\%BArl\%C3\%B3d\%C3\%A1s\#A\_s\%C3\%BArl\%C3\%B3d\%C3\%A1si\_k\%C3\%Bap}{https://hu.wikipedia.org/wiki/Súrlódás} - Súrlódási kúp fejezet}
 	\begin{equation}
-			M_{anya_{min}} = F_v \cdot \dfrac{d_a}{2} \cdot \mu_{a_{min}} = 6098 \cdot \dfrac{20}{2} \cdot 0.08 = 4878 \mpa\tag{5.2}
+			M_{anya_{min}} = F_v \cdot \dfrac{d_a}{2} \cdot \mu_{a_{min}} = 6098 \cdot \dfrac{20}{2} \cdot 0.08 = 4878 \nmm\tag{5.2}
 	\end{equation}
 	\begin{equation}
-			M_{anya_{max}} = F_v \cdot \dfrac{d_a}{2} \cdot \mu_{a_{max}} = 6098 \cdot \dfrac{20}{2} \cdot 0.25 = 15245\mpa\tag{5.2}
+			M_{anya_{max}} = F_v \cdot \dfrac{d_a}{2} \cdot \mu_{a_{max}} = 6098 \cdot \dfrac{20}{2} \cdot 0.25 = 15245\nmm\tag{5.2}
 	\end{equation}
 	Végül vissza tudunk helyettesíteni $M_{megh}$ képletébe, hogy meghatározzuk szélsőértékeit:
 	\begin{equation}
-			M_{megh_{min}} = M_{csavar_{min}} + M_{anya_{min}} = 7153 + 4878 = 12031 \mpa\tag{5}
+			M_{megh_{min}} = M_{csavar_{min}} + M_{anya_{min}} = 7153 + 4878 = 12031 \nmm\tag{5}
 	\end{equation}
 	\begin{equation}
-			M_{megh_{max}} = M_{csavar_{max}} + M_{anya_{max}} = 9252 + 15245 = 24497 \mpa\tag{5}
+			M_{megh_{max}} = M_{csavar_{max}} + M_{anya_{max}} = 9252 + 15245 = 24497 \nmm\tag{5}
 	\end{equation}
 	\newpage
 	\section{Csavar anyagának kiválasztása, benne ébredő egyenfeszültség kiválasztása}
@@ -437,7 +423,7 @@ headheight=4em
 				\renewcommand{\arraystretch}{1}\\
 	$A_e$ meghatározása:
 	\begin{equation}
-		A_e = \dfrac{d_e^2 \cdot \pi}{4} = \dfrac{\left(\dfrac{d_2 + d_3}{2}\right)^2 \cdot \pi}{4} = \dfrac{\left(\dfrac{14.701 + 13.546}{2}\right)^2 \cdot \pi}{4} = 157 \mm\tag{6.1.1}
+		A_e = \dfrac{d_e^2 \cdot \pi}{4} = \dfrac{\left(\dfrac{d_2 + d_3}{2}\right)^2 \cdot \pi}{4} = \dfrac{\left(\dfrac{14.701 + 13.546}{2}\right)^2 \cdot \pi}{4} = 157 \mmn\tag{6.1.1}
 	\end{equation}
 				\vspace{-20pt}
 					\renewcommand{\arraystretch}{1.4}
@@ -446,7 +432,7 @@ headheight=4em
 											\begin{tabular}{l|c|c}
 												\textbf{Név}                              & \textbf{Jelölés} & \textbf{M.egys.} \\ \hline
 												A menet középátmérője                      & $d_2$                & $\mm$          \\
-												A menet belső átmérője          & $d_3$                & $\mmn$			 	 	       
+												A menet belső átmérője          & $d_3$                & $\mm$			 	 	       
 											\end{tabular}
 										\end{table}
 					\renewcommand{\arraystretch}{1}\\
@@ -464,7 +450,7 @@ headheight=4em
 												\centering
 												\begin{tabular}{l|c|c}
 													\textbf{Név}                              & \textbf{Jelölés} & \textbf{M.egys.} \\ \hline
-													A csavar menetén ébredő súrlódási nyomaték                      & $M_{csavar}$                & $\mpa$          \\
+													A csavar menetén ébredő súrlódási nyomaték                      & $M_{csavar}$                & $\nmm$          \\
 													A csavarszár poláris keresztmetszeti tényezője          & $K_p$                & $\mmh$			 	 	       
 												\end{tabular}
 											\end{table}
@@ -492,4 +478,5 @@ headheight=4em
 	\end{equation}
 	Láthatjuk, hogy egyik értékünk sem haladja meg a megengedettet, így a szilárdsági osztályunk megfelelő.
 	\section{Konstrukció összeállítási rajza}
+	\includepdf[fitpaper]{osszeallitas.pdf}
 \end{document}
